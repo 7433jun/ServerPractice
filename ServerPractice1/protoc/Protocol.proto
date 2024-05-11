@@ -1,0 +1,13 @@
+syntax = "proto3";
+package Protocol;
+
+message Player
+{
+	int32 id = 1;
+	string name = 2;
+}
+
+message Login
+{
+	Player player = 1;
+}
