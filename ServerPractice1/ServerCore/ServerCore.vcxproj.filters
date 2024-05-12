@@ -69,6 +69,7 @@
     <ClCompile Include="Session.cpp">
       <Filter>Network\IocpObj\Session</Filter>
     </ClCompile>
+    <ClCompile Include="PacketHandler.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -119,5 +120,6 @@
     <ClInclude Include="Session.h">
       <Filter>Network\IocpObj\Session</Filter>
     </ClInclude>
+    <ClInclude Include="PacketHandler.h" />
   </ItemGroup>
 </Project>

@@ -21,7 +21,7 @@ shared_ptr<SendBuffer> SendBufferManager::Open(int size)
 	}
 
 	
-	//printf("Chunk Free Size : %u\n", localSendBufferChunk->FreeSize());
+	printf("Chunk Free Size : %u\n", localSendBufferChunk->FreeSize());
 
 	return localSendBufferChunk->Open(size);
 }
